@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> **This repo has moved to [criscatalyst/creator-skills](https://github.com/criscatalyst/creator-skills/tree/main/skills/ig-competitor-research).** It is archived and no longer updated: the latest version of this skill lives there.
+>
+> Install it as a plugin in Claude Code: `/plugin marketplace add criscatalyst/creator-skills` then `/plugin install ig-competitor-research@creator-skills`.
+
 # IG Competitor Research — Claude Code skill
 
 Weekly Instagram competitor research, run by Claude through a real Chrome window on your Mac. You hand it a list of competitor accounts (and optional hashtags); Claude scrolls every reels grid, ranks each account's reels by views, downloads the top performers, pulls the **first-3-seconds visual hook** (frames) and the **spoken hook + full script** (local Whisper transcript), and hands you a single ranked HTML report. You skim it and shortlist ~10 reels worth modeling.
